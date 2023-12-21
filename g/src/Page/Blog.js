@@ -57,8 +57,6 @@ function Blog() {
   return (
     <>
       <div className="info-container">
-        <h1>{"Country Name:" + name.common}</h1>
-        <h3>{"Capital:" + capital}</h3>
         <div className="image-container">
           <img className="image-container" src={flags.png} alt={name.common} />
 
@@ -71,6 +69,9 @@ function Blog() {
             />
           </a>
         </div>
+        <h1>{"Country Name:" + name.common}</h1>
+        <h3>{"Capital:" + capital}</h3>
+
         <p>{"Region:" + region}</p>
         <p>{"Subregion:" + subregion}</p>
         <p>{"timezones:" + timezones[0]}</p>

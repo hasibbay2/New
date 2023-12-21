@@ -1,56 +1,54 @@
 /* Add styling for the info-container class */
 .info-container {
-    text-align: center;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(45deg, #3498db, #e74c3c);
-    color: #fff;
-  }
-  
-  /* Style the heading elements */
-  .info-container h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .info-container h3 {
-    font-size: 1.5em;
-    margin-top: 0;
-  }
-  
-  /* Style the image container */
-  .image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  /* Style the images */
-  .info-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 0 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .info-container iframe {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 0 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the paragraphs */
-  .info-container p {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  
-  
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  color: #fff;
+}
 
+/* Style the heading elements */
+.info-container h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.info-container h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+/* Style the image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the images */
+.info-container img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 0 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.info-container iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the paragraphs */
+.info-container p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
 
 /* Add styling for the card container */
 .div {
@@ -63,7 +61,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 
 /* Style the heading */
 .h3 {
@@ -98,4 +95,27 @@
 /* Hover effect for the link within the button */
 .button a:hover {
   text-decoration: underline;
+}
+nav {
+  margin: 1rem;
+  padding: 15px;
+  background: #333;
+}
+.link {
+  border: 1px solid #f4f1f1;
+  background-color: #010d16;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+  color: antiquewhite;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover {
+  color: greenyellow;
+}
+
+.link:active {
+  background-color: #3498db;
 }
