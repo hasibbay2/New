@@ -1,0 +1,101 @@
+/* Add styling for the info-container class */
+.info-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    color: #fff;
+  }
+  
+  /* Style the heading elements */
+  .info-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .info-container h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  /* Style the image container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the images */
+  .info-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .info-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the paragraphs */
+  .info-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  
+
+
+/* Add styling for the card container */
+.div {
+  background-color: #5ab9d1;
+  color: #333;
+  margin: 1rem;
+  display: subgrid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+/* Style the heading */
+.h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #0f0501; /* Accent color for the heading */
+}
+
+/* Style the button */
+.button {
+  background-color: #178ae7;
+  margin: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Remove default link styles and style the link within the button */
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hover effect for the link within the button */
+.button a:hover {
+  text-decoration: underline;
+}
